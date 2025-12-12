@@ -1,0 +1,175 @@
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerüstverleih Mock</title>
+</head>
+<body>
+
+  <!-- HEADER MIT LOGO UND TITEL -->
+  <header class="header">
+
+ 
+
+    <div class="header-text">
+      <h1>Gerüstverleih Mock</h1>
+      <p class="subtitle">Professionelles Layher Gerüst – über 700 m² verfügbar.</p>
+    </div>
+  </header>
+
+  <p class="safety-line">Wo Ihre Pläne wachsen, sorgen wir für sicheren Stand.</p>
+
+  <!-- HERO-BEREICH -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Dachfanggerüst und Fassadengerüste für Ihre Projekte</h2>
+      <p>
+        Flexibel, sicher und für Privatpersonen wie Unternehmen geeignet.
+        Mieten Sie unser Gerüst und sparen Sie Kosten durch Eigenaufbau.
+      </p>
+    </div>
+  </section>
+
+  <!-- PREISE -->
+  <section class="card" id="preise">
+    <h2>Unsere Preise</h2>
+    <ul>
+      <li>Erste 4 Wochen: <strong>1 € pro m² / Woche</strong></li>
+      <li>Weitere Wochen: <strong>0,75 € pro m² / Woche</strong></li>
+      <li>Unter 100 m²: Pauschal <strong>350 €</strong></li>
+      <li>Kaution: <strong>3 € pro m²</strong> (verhandelbar ab 500 m²)</li>
+      <li>Lieferung: auf Anfrage, Richtwert <strong>1,80 € pro km</strong></li>
+    </ul>
+  </section>
+
+  <!-- PREISRECHNER -->
+ <section class="card" id="preisrechner">
+  <h2>Preisrechner</h2>
+  <p>Berechnen Sie unverbindlich die voraussichtlichen Mietkosten für Ihr Gerüst.</p>
+
+  <form id="preisrechner-form">
+    <label for="qm">Gerüstfläche in m²:</label>
+    <input type="number" id="qm" min="1" required>
+
+    <label for="wochen">Mietdauer in Wochen:</label>
+    <input type="number" id="wochen" min="1" required>
+
+    <button type="submit" class="button">Preis berechnen</button>
+  </form>
+
+  <div id="preisrechner-ergebnis" class="calc-result"></div>
+</section>
+<p class="calc-hinweis">
+      Hinweis: Der Rechner dient als unverbindliche Orientierung.
+      Die tatsächlichen Preise können je nach Projekt abweichen.
+    </p>
+  </section>
+
+  <!-- EXTRAS -->
+  <section class="card" id="extras">
+    <h2>Extras inklusive</h2>
+    <ul>
+      <li>Konsolen</li>
+      <li>Fangnetze</li>
+      <li>Dielen</li>
+      <li>Befestigungen</li>
+    </ul>
+  </section>
+
+ 
+
+
+  <!-- KONTAKT -->
+  <section class="card" id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Standort:</strong> 97900 Külsheim</p>
+    <p><strong>Inhaber:</strong> Jurij Mock</p>
+    <p><strong>Telefon:</strong> 0157-53612262</p>
+    <p><strong>E-Mail:</strong> lmock@web.de</p>
+
+ <p>
+  Oder schreiben Sie direkt an:
+  <a class="button" href="mailto:lmock@web.de?subject=Gerüst%20Anfrage">
+    Angebot anfragen
+</a>
+<section id="standort">
+  <h2>Unser Standort</h2>
+
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.704172160625!2d9.520864!3d49.662474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47982c8153f14eef%3A0xacfdf8c504861e10!2sRathausstra%C3%9Fe%2025%2C%2097900%20K%C3%BClsheim!5e0!3m2!1sde!2sde!4v1702312345678"
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+
+  <a class="button" 
+     href="https://www.google.com/maps?q=Rathausstraße+97900+Külsheim" 
+     target="_blank">
+     Route planen
+  </a>
+</section>
+
+
+
+  </section>
+
+  <!-- IMPRESSUM & DATENSCHUTZ ALS AUSKLAPPBOXEN -->
+  <div class="toggle-box" onclick="this.classList.toggle('open')">
+    Impressum anzeigen
+  </div>
+  <div class="toggle-content" id="impressum">
+    <h2>Impressum</h2>
+    <p><strong>Angaben gemäß § 5 TMG</strong></p>
+    <p>
+      Gerüstverleih Mock<br>
+      Jurij Mock<br>
+      Rathausstraße 25<br>
+      97900 Külsheim
+    </p>
+    <p>
+      Telefon: 0157-53612262<br>
+      E-Mail: lmock@web.de
+    </p>
+    <p><strong>Umsatzsteuer-ID</strong><br>
+      USt-IdNr.: 80375/21749
+    </p>
+  </div>
+
+  <div class="toggle-box" onclick="this.classList.toggle('open')">
+    Datenschutz anzeigen
+  </div>
+  <div class="toggle-content" id="datenschutz">
+    <h2>Datenschutz</h2>
+    <p>
+      Diese Website verwendet keine Cookies, kein Tracking und keine Analyse-Tools.
+    </p>
+    <p>
+      Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben ausschließlich zur Bearbeitung
+      der Anfrage verwendet und nicht an Dritte weitergegeben.
+    </p>
+    <p>
+      Verantwortlich:<br>
+      Gerüstverleih Mock, Jurij Mock, Rathausstraße 25, 97900 Külsheim<br>
+      E-Mail: lmock@web.de
+    </p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      <a href="#impressum">Impressum</a> ·
+      <a href="#datenschutz">Datenschutz</a> ·
+      © Gerüstverleih Mock
+    </p>
+  </footer>
+
+</body>
+</html>
+
+  
+
+
+
+
+
